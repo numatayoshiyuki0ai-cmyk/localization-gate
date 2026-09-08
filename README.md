@@ -2,23 +2,32 @@
 
 Catch localization mistakes before they reach production.
 
-Localization Gate checks translation JSON files before release.
+Localization Gate is a lightweight CI checker for translation JSON files. It helps development teams catch 
+common localization problems automatically before release.
 
-## Detects
+## What it detects
 
 - Missing translation keys
 - Empty translations
 - Placeholder mismatches
 - Unexpected extra keys
+- Possibly untranslated strings
 
-## Usage
+## Example
 
-Run: python localization_gate.py en.json ja.json
+```text
+Localization Gate
+==================================================
+Source : en.json
+Target : ja.json
 
-If errors are found, Localization Gate returns FAIL and blocks the release.
+RELEASE BLOCKERS
+  [ERROR] MISSING KEY      profile.save
+  [ERROR] PLACEHOLDER       items
+  [ERROR] EMPTY VALUE       logout
 
-If no errors are found, Localization Gate returns PASS.
+WARNINGS
+  [WARN]  EXTRA KEY         unused
 
-## Status
-
-Early access / MVP
+==================================================
+FAIL - Release blocked.
