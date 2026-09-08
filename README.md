@@ -82,14 +82,9 @@ localization.
 
 **Early access price: ¥4,980**
 
-Interested in trying Localization Gate?
+The Early Access purchase page is being prepared. Once checkout is enabled, the link will appear here.
 
-Open an issue in this repository with the title:
-
-**Early Access Request**
-
-Please do not include private repository details, credentials, API keys, or other sensitive information in a 
-public issue.
+Please do not share private repository details, credentials, API keys, or other sensitive information in a public issue.
 
 ## Status
 
