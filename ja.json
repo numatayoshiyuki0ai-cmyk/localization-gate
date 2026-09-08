@@ -1,0 +1,9 @@
+{
+  "welcome": "ようこそ、{{name}}さん！",
+  "logout": "",
+  "items": "{{number}}件のアイテムがあります。",
+  "profile": {
+    "title": "プロフィール"
+  },
+  "unused": "未使用"
+}

@@ -1,0 +1,9 @@
+{
+  "welcome": "Welcome, {{name}}!",
+  "logout": "Log out",
+  "items": "You have {{count}} items.",
+  "profile": {
+    "title": "Your profile",
+    "save": "Save changes"
+  }
+}
