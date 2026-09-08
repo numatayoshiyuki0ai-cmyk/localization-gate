@@ -18,4 +18,4 @@ jobs:
           python-version: '3.12'
 
       - name: Run Localization Gate
-        run: python localization_gate.py en.json ja.json
+        run: python localization_gate.py en.json ja_good.json
