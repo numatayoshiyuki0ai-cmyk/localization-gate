@@ -82,7 +82,7 @@ localization.
 
 **Early access price: ¥4,980**
 
-The Early Access purchase page is being prepared. Once checkout is enabled, the link will appear here.
+Purchase Early Access: https://quietlayer.github.io/localization-gate/
 
 Please do not share private repository details, credentials, API keys, or other sensitive information in a public issue.
 
