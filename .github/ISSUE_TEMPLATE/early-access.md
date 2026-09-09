@@ -1,45 +1,24 @@
 ---
-name: Early Access Request
-about: Request early-access setup for Localization Gate
-title: "Early Access Request"
-labels: early-access
+name: Bug report
+about: Report a reproducible problem in the public Localization Gate checker
+title: "Bug: "
+labels: bug
 assignees: ''
 ---
 
-## Early Access Request
+## What happened?
 
-Thank you for your interest in Localization Gate.
+Describe the problem and what you expected instead.
 
-Please provide only information that is safe to share publicly.
+## Reproduction
 
-### Localization setup
+Provide a minimal, non-sensitive JSON example and the command you ran.
 
-**What languages does your project support?**
+## Environment
 
-Example: English, Japanese
+- Python version:
+- Operating system:
 
+Do not include credentials, API keys, private repository contents, personal information, or confidential translations.
 
-**What localization file format do you use?**
-
-Example: JSON
-
-
-**Are you currently using GitHub Actions?**
-
-- [ ] Yes
-- [ ] No
-- [ ] Not sure
-
-
-### What would you like help with?
-
-- [ ] Adding Localization Gate to my repository
-- [ ] Configuring localization files
-- [ ] Setting up GitHub Actions / CI
-- [ ] Testing the first successful check
-- [ ] Other
-
-
-### Additional notes
-
-Please do not include credentials, API keys, private repository contents, or other sensitive information here.
+Bug reports are reviewed without a guaranteed response time. Individual setup, configuration, debugging, and email support are not provided.
